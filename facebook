@@ -1,0 +1,29 @@
+#> facebook bypass recoverly password
+#> we can login without change the old password
+#> this is i think the new feature from facebook .
+#> ok lets go
+#>>
+ >> we assume that we have an access an email address target.
+ >> make sure ther is an account facebook on email target thats we dont khow the password.
+ >> so first step we have to forget password from facebook login page, use recovery mode. 
+ >> after facebook send some code, we use that code to make a new password .
+ >> this link below that facebook send to email target 
+    https://www.facebook.com/recover/code/?u=100004854496982&n=758454&s=23&exp_locale=id_ID&redirect_from=button
+ >> explenation : u= userid target
+                  n= code from facebook
+                  exp_locale =location target country
+                  
+ >> after we click the link, facebook ask we to create a new password.
+ >> ok now lets bypass it .
+ >> i get the code from a new feature facebook "login with an singgle click"
+    https://www.facebook.com/recover/code/?u=100004854496982&n=667903&s=24&lri=9b98bf85-d95b-999f-a10b-d320bafb880b&exp_locale=en_US&ocl=1
+    we can see theris some code that we make sure:
+    # &redirect_from=button
+    # &ocl=1
+    # $lri=9b98bf85-d95b-999f-a10b-d320bafb880b
+    
+ >> after we see the feauture from facebook we can use it to login without change the old password
+ >> just use an single code to bypass it we use from code at feature "login with an singgle click"
+ >> so the complite code is :
+   # https://www.facebook.com/recover/code/?u=100004854496982&n=758454&s=23&exp_locale=id_ID&ocl=1
+   # remember : n= code that facebook send from recovery login
